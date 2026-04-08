@@ -1,1 +1,1 @@
-# sensors-and-control
+# センサと制御
