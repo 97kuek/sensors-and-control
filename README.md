@@ -32,18 +32,18 @@
 
 ## 実験内容
 
-### 第1回
+### 第1回中間レポート
 
 | ファイル | 概要 |
 |---|---|
-| [led-voltage.ino](1st/led-voltage/led-voltage.ino) | 赤・黄・緑・青・白の各LEDを点灯し、マルチメーターで順方向電圧を測定する |
+| [led-voltage.ino](1st/led-voltage/led-voltage.ino) | 赤・黄・緑・青・白の各LEDを点灯し、テスターで順方向電圧を測定する |
 | [photocell.ino](1st/photocell/photocell.ino) | フォトセルと10kΩ抵抗による分圧回路でADC値を読み取り、照度環境ごとの抵抗値を算出する |
-| [servo.ino](1st/servo/servo.ino) | サーボモータを0°↔180°往復させ、10回平均から角速度 (rad/s) を求める |
-| [ultrasonic-sensor.ino](1st/ultrasonic-sensor/ultrasonic-sensor.ino) | HC-SR04超音波センサで1秒ごとに距離 (cm) をシリアル出力する |
-| [plot_distance.m](1st/ultrasonic-sensor/plot_distance.m) | 超音波センサの実測値と理想値を比較するMATLABプロット（線形近似・決定係数付き） |
-| [plot_pencil.m](1st/pencil-resistance/plot_pencil.m) | シャープペンシル線（HB）の2点間距離と抵抗値の関係をプロットするMATLABスクリプト（線形近似・決定係数付き） |
+| [servo.ino](1st/servo/servo.ino) | サーボモータを0°から180°まで往復させ、10回平均から角速度 (rad/s) を求める |
+| [ultrasonic-sensor.ino](1st/ultrasonic-sensor/ultrasonic-sensor.ino) | HC-SR04超音波センサで1秒ごとに距離をシリアル出力する |
+| [plot_distance.m](1st/ultrasonic-sensor/plot_distance.m) | 超音波センサの実測値と理想値を比較する |
+| [plot_pencil.m](1st/pencil-resistance/plot_pencil.m) | シャープペンシル線（HB）の2点間距離と抵抗値の関係をプロットする |
 
-### 第2回
+### 第2回中間レポート
 
 | ファイル | 概要 |
 |---|---|
