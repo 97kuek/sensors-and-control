@@ -1,6 +1,3 @@
-// フォトセル抵抗値測定
-// 配線: 5V → 10kΩ抵抗 → A0 → フォトセル → GND
-
 const int ANALOG_PIN = A0;
 const float VCC = 5.0;
 const float R_KNOWN = 10000.0;  // 10kΩ
