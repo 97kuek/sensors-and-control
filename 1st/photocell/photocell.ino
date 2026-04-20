@@ -20,7 +20,12 @@ void loop() {
     float raw = sum / 10.0;
 
     float voltage = raw * VCC / 1023.0;
-    float resistance = R_KNOWN * voltage / (VCC - voltage);
+    if (voltage < 0.001) {
+      Serial.println("ADC値: 0  (測定不能: ショートまたは配線ミス)");
+      Serial.println("次の環境に切り替えたら何かキーを押してください");
+      return;
+    }
+    float resistance = R_KNOWN * (VCC - voltage) / voltage;
 
     Serial.print("ADC値: ");
     Serial.print(raw);
