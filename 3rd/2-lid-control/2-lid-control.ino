@@ -11,7 +11,7 @@
 // パラメータ
 const int HAND_DIST     = 5;        // cm: フタを開ける距離
 const int OPEN_DURATION = 3000;     // ms: フタ開放時間
-const int ANGLE_OPEN    = 180;      // サーボ全開角度
+const int ANGLE_OPEN    = 160;      // サーボ全開角度
 const int ANGLE_CLOSED  = 40;       // サーボ閉角度
 
 Servo lidServo;
